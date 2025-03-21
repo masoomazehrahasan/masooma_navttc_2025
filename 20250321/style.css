@@ -1,0 +1,14 @@
+h1{
+    color: blueviolet;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    color: chocolate;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+li{
+    text-align: left;
+    font-size: small;
+}
