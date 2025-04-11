@@ -1,0 +1,14 @@
+.container{
+    background-color: aqua;
+    color: black;
+    margin-bottom: -17px;
+    padding: 0px;
+    height: fit-content;
+}
+.inside-container{
+    background-color: orange;
+    color: black;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: fit-content;
+}
