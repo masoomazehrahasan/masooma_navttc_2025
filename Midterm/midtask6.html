@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MidTerm Task 6</title>
+  </head>
+  <body>
+    <!-- Task 6 Start -->
+    <!-- 6- Create a function that take 3 arguments num1, num2 and operator , if the operator is + then it shows result of adding two variables and if the operator is * then it shows result of multiplication of two numbers -->
+
+    <script>
+      function calculations(a, b, op) {
+        if (op == "+") {
+          let res = a + b;
+          return "The sum of two numbers is " + res;
+        } else if (op == "*") {
+          let res = a * b;
+          return "The product of two numbers is " + res;
+        }
+      }
+      document.body.innerHTML = calculations(12, 3, "*");
+    </script>
+
+    <!-- Task 6 End -->
+  </body>
+</html>
