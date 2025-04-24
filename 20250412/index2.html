@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Defining a Function
+      function add(a, b) {
+        return a + b;
+      }
+      function sub(a, b) {
+        return a - b;
+      }
+      function mul(a, b) {
+        return a * b;
+      }
+      function div(a, b) {
+        return a / b;
+      }
+      function mod(a, b) {
+        return a % b;
+      }
+      function exp(a, b) {
+        return a ** b;
+      }
+
+      //Calling a Function
+      num1 = Number(prompt("Enter the first number : "));
+      op = prompt("Enter the operator ( + ,- , * , / , % , ** ) : ");
+      num2 = Number(prompt("Enter the second number : "));
+      switch (op) {
+        case "+":
+          console.log(add(num1, num2));
+          break;
+        case "-":
+          console.log(sub(num1, num2));
+          break;
+        case "*":
+          console.log(mul(num1, num2));
+          break;
+        case "/":
+          console.log(div(num1, num2));
+          break;
+        case "%":
+          console.log(mod(num1, num2));
+          break;
+        case "**":
+          console.log(exp(num1, num2));
+          break;
+        default:
+          document.body.innerHTML = "Enter a valid Operator";
+          break;
+      }
+    </script>
+  </body>
+</html>

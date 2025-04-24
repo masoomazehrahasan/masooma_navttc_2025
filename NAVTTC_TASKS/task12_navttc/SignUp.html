@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebPage</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <style>
+      .container {
+        /* transform: translateY(15%); */
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        /* transform: translateY(10%); */
+        border: 1.5px solid blue;
+        border-radius: 5%;
+        height: 500px;
+        width: 350px;
+        color: rgb(1, 80, 1);
+        padding: 10px;
+      }
+      .login {
+        display: flex;
+        flex-direction: column;
+        /* transform: translateY(30%); */
+      }
+      .login input {
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px;
+        padding: 5px;
+        border: none;
+        border-bottom: 1px solid;
+        outline: none;
+        width: 80%;
+        /* transform: translateX(13%); */
+      }
+      .social {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 25%;
+        /* padding: 0 150px; */
+        margin: 5px 2px;
+        margin: auto;
+        transform: translateY(1%);
+      }
+    </style>
+  </head>
+  <body>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <div class="container">
+      <h1 style="font-size: 60px">Sign Up</h1>
+      <div class="login">
+        <input
+          type="text"
+          name="uname"
+          id="un"
+          placeholder="Enter Your Username"
+        />
+        <input
+          type="email"
+          name="email"
+          id="e"
+          placeholder="Enter Your Email"
+        />
+        <input
+          type="password"
+          name="pswd"
+          id="p"
+          placeholder="Enter Your Password"
+        />
+        <input
+          type="password"
+          name="rpswd"
+          id="rp"
+          placeholder="Re-enter Your Password"
+        />
+        <hr />
+        <div class="social">
+          <a
+            href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&ifkv=AXH0vVuwI14v7J_iQxtw-Yfz2Jk0UvtbBc9Olo5cK5D1bpho0AP07lUFxpm68bf3drNUZpmDAVAKjw&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-2043134861%3A1743069680446630"
+          >
+            <i class="fa-brands fa-google"></i>
+          </a>
+          <a href="https://www.linkedin.com/login">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://www.facebook.com/login">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+        <h5>Already have an account? <a href="index.html">Sign In</a></h5>
+      </div>
+    </div>
+  </body>
+</html>

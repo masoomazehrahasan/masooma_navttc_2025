@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Practice</title>
+    <style>
+        h1{
+            text-align: center;
+            border: 5px color black;
+            height: 50px;
+            width: 390px;
+            margin: 0 auto;
+        }
+        table,th,thead,td,tr,form{
+            margin: 0 auto;
+            text-align: center; 
+            border: 2px solid black;
+        }
+        h4{
+            margin: 0 auto;
+            text-align: center; 
+        }
+        /* tbody{
+            border: 10px groove purple;
+        } */
+        body{
+            
+            margin: 0 auto ;
+            height: 700px;
+            width: 400px;
+            border: 4px groove purple;
+        }
+        p{
+            font-size: xx-small;
+            text-align: left
+        }
+        
+    </style>
+    </head>
+<body>
+    <table>
+        <form action="" method="get">
+
+    <h1 style="color: black;">Report Form</h1>
+    <h1 style="color: white; background-color: green;">Information Table</h1>
+
+    
+        
+        <tbody>
+            <tr>
+                <td><h4><label for=""><strong>NAME</strong></label></h4></td>
+                <td><h4><input type="text" name="name" value="" placeholder=""><p>ENTER YOUR FULL NAME</p></h4></td>
+            </tr>
+            <tr>
+                <td><h4><label for=""><strong>EMAIL</strong></label></h4></td>
+                <td><h4><input type="email" name="email" value="" placeholder=""><p>ENTER AN INTERNET CONTACT ADDRESS</p></td>
+            </tr>
+            <tr>
+                <td><h4><label for="">PASSWORD<strong></strong></label></h4></td>
+                <td><h4><input type="password" name="password" value="" placeholder="Enter your Secret Key"><p>ENTER A CODE TO IDENTIFY YOU</p></td>
+            </tr>
+            <tr>
+                <td><label for=""><strong>ADDRESS</strong></label></td>
+                <td><input type="text" name="address" value="" placeholder="Complete Address"><p>COMPLETE ADDRESS</p></td>
+            </tr>
+            <tr>
+                <td><label for=""><strong>COUNTRY</strong></label></td>
+                <td><select> 
+                    <option value="Pakistan" selected>Pakistan<option>
+                    <option value="Austria">Austria</option>
+                    <option value="China">China</option>
+                    <option value="India">India</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Iraq">Iraq</option>
+                    <option value="Syria">Syria</option>           
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for=""><strong>GENDER</strong></label></td>
+                    <td><input type="radio" name="gender" id="m" value="Male">
+                    <label for="m">Male</label>
+                    <input type="radio" name="gender" id="f" value="Female">
+                    <label for="f">Female</label></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for=""><strong>HOBBIES</strong></label>
+                </td>
+                <td style="text-align: left;">
+                    <input type="checkbox" name="reading" id="1">
+                    <label for="1">Reading</label>
+                    <br>
+                    <input type="checkbox" name="listening music" id="2">
+                    <label for="2">Listening Music</label>
+                    <br>
+                    <input type="checkbox" name="gardening" id="3">
+                    <label for="3">Gardening</label>
+                    <br>
+                    <input type="checkbox" name="swimming" id="4">
+                    <label for="4">Swimming</label>
+                    <br>
+                    <input type="checkbox" name="athletics" id="5">
+                    <label for="5">Athletics</label>
+                    <br>
+                    <label for="" style="margin: 0px ">Check All That Apply</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for=""><strong>YOUR WEBSITE</strong></label></td>
+                <td><input type="url" name="url" placeholder="https://example.com"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Other Information About You</label></td>
+                <td><textarea name="info" rows="7" placeholder="Type Any Other Info"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" required value="SEND IN MY REPORT"></td>
+                <td><input type="reset" value="ERASE REPORT FORM"></td>
+            </tr>
+            
+        </tbody>
+    </form>
+    </table>
+    
+</body>
+</html>

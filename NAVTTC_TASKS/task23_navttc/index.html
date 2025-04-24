@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="">Enter Num 1<input type="number" id="num1" /></label>
+    <br />
+    <label for="">Enter Num 2<input type="number" id="num2" /></label>
+    <p>......</p>
+
+    <button id="plus">+</button>
+    <button id="minus">-</button>
+    <button id="mul">*</button>
+    <button id="div">/</button>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      let res = $("p");
+      let plus = $("#plus");
+      let minus = $("#minus");
+      let mul = $("#mul");
+      let div = $("#div");
+
+      plus.click(function (e) {
+        let num1 = Number($("#num1").val());
+        let num2 = Number($("#num2").val());
+        res.text(num1 + num2);
+      });
+      minus.click(function (e) {
+        let num1 = Number($("#num1").val());
+        let num2 = Number($("#num2").val());
+        res.text(num1 - num2);
+      });
+      mul.click(function (e) {
+        let num1 = Number($("#num1").val());
+        let num2 = Number($("#num2").val());
+        res.text(num1 * num2);
+      });
+      div.click(function (e) {
+        let num1 = Number($("#num1").val());
+        let num2 = Number($("#num2").val());
+        res.text(num1 / num2);
+      });
+    </script>
+  </body>
+</html>

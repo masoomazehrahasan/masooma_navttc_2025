@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Lists / Array</h1>
+
+    <script>
+      //   fruits = ["Mango", "Banana", "Kiwi"];
+      //   fruits.push("Lemon");
+      //   fruits.unshift("Lemon");
+      //   fruits.pop();
+      //   document.body.innerHTML = fruits.push("Lemon");
+      //   document.body.innerHTML = fruits;
+
+      //   important list methods
+      // 1 Push
+      // 2 Unshift
+      // 3 Pop
+      // 4 Shift
+
+      const university = {
+        name: "MUET",
+        NumberOfDepts: 10,
+        departments: {
+          one: "Electrical",
+          two: "Telecom",
+          three: "Software",
+        },
+      };
+
+      university.departments.one = "Computer";
+
+      document.body.innerHTML = university.departments.one;
+    </script>
+  </body>
+</html>

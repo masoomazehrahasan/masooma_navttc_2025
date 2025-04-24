@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 13</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        /* background-color: #333; */
+        }
+
+        /* li {
+        float: left;
+        } */
+
+        li a, .dropbtn {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+        li a:hover, .dropdown:hover .dropbtn {
+        background-color: green;
+        }
+
+        li.dropdown, .dropdown-content {
+        display: inline-block;
+        }
+
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        }
+
+        .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1;}
+
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Make dropdowns with nested HTML tags and CSS</h1>
+    
+        <!-- <option value="">Select Your City</option> -->
+        <ul>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Select Your City</a>
+                <div class="dropdown-content">
+                    <a href="#">Sindh</a>
+                    <div class="dropdown-content">
+                        <a href="#">Hyderabad</a>
+                        <a href="#">Karachi</a>
+                        <a href="#">Jamshoro</a>
+                    </div>
+                    <a href="#">Punjab</a>
+                    <a href="#">Balochistan</a>
+                </div>
+            </li>
+        </ul>
+
+        <!-- <select>     
+            <li><option value="Sindh" disabled>Sindh</option></li>
+            <li><option value="Hyderabad">Hyderabad</option></li>
+            <li><option value="Karachi">Karachi</option></li>
+            <li><option value="TandoAdam">TandoAdam</option></li>
+            <li><option value="Jamshoro">Jamshoro</option></li>
+        </ul>
+        <ul>
+            <li><option value="Punjab" disabled>Punjab</option></li>
+            <li><option value="Faisalabad">Faisalabad</option></li>
+            <li><option value="Multan">Multan</option></li>
+            <li><option value="Lahore">Lahore</option></li>
+            <li><option value="Jhang">Jhang</option></li>
+        </ul>
+        <ul>
+            <li><option  value="Balochistan" disabled>Balochistan</option></li>  
+            <li><option value="Quetta">Quetta</option></li>
+            <li><option value="Chaman">Chaman</option></li>
+            <li><option value="Gwadar">Gwadar</option></li>
+            <li><option value="Hub">Hub</option></li>
+        </ul>
+         <ul>
+            <li><option value="Khyder Pakhtun Khuwa" disabled>Khyder Pakhtun Khuwa</option></li>
+            <li><option value="Peshawar">Peshawar</option></li>
+            <li><option value="Kohat">Kohat</option></li>
+            <li><option value="Mardan">Mardan</option></li>
+            <li><option value="Swabi">Swabi</option></li>
+         </ul>    
+    </select> -->
+</body>
+</html>

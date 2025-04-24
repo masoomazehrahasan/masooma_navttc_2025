@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NAVTTC Task 11</title>
+    <style>
+      .nav {
+        height: 130px;
+        margin: 2px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        justify-content: space-between;
+        border: 4px solid rgb(38, 175, 129);
+        background-color: rgb(142, 236, 204);
+      }
+      .nav .logo {
+        display: flex;
+        align-items: center;
+        img {
+          border-radius: 50%;
+          padding: 0 15px;
+        }
+        span {
+          font-size: 60px;
+          font-weight: bold;
+        }
+      }
+      .nav .menu {
+        ul {
+          display: flex;
+          justify-content: space-between;
+          li {
+            justify-content: space-around;
+            list-style-type: none;
+            align-items: center;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 40%;
+            background-color: beige;
+            font-size: 20px;
+            a {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      .aside {
+        border: 4px solid rgb(23, 152, 109);
+        height: 700px;
+        width: 250px;
+        background-color: rgba(124, 240, 215, 0.95);
+        align-items: justify;
+
+        ul {
+          padding: 0;
+          height: 100px;
+          align-items: center;
+
+          li {
+            align-items: right;
+            justify-content: center;
+            /* margin: 2px 5px; */
+            padding: 15px 0px;
+            list-style-type: none;
+            color: black;
+            font-size: 36px;
+            border-bottom: 3px solid rgb(8, 101, 70);
+            border-width: 100%;
+            a {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="logo">
+        <img
+          src="https://cdn.vectorstock.com/i/500p/38/73/star-butterfly-vector-1163873.jpg"
+          width="100px"
+          height="100px"
+          alt=""
+        /><span>Masooma Zehra</span>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="">Profile</a></li>
+          <li><a href="">Sign Out</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="aside">
+      <ul>
+        <li
+          style="
+            padding: 15px 18%;
+            background-color: rgb(205, 254, 243);
+            border-top: 3px solid rgb(8, 101, 70);
+          "
+        >
+          <a href="">Dashboard</a>
+        </li>
+        <li style="padding: 15px 34%; background-color: rgb(205, 254, 243)">
+          <a href="">Home</a>
+        </li>
+        <li style="padding: 15px 34%; background-color: rgb(205, 254, 243)">
+          <a href="">Menu</a>
+        </li>
+        <li style="padding: 15px 31%; background-color: rgb(205, 254, 243)">
+          <a href="">Profile</a>
+        </li>
+        <li style="padding: 15px 24%; background-color: rgb(205, 254, 243)">
+          <a href="#">Sign Out</a>
+        </li>
+      </ul>
+      <div class="cntr">
+        <!-- <img src="https://picsum.photos/50" alt=""> -->
+      </div>
+    </div>
+  </body>
+</html>

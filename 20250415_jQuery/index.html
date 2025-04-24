@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <style>
+      #screen {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main text-center">
+      <h1>Functions and JQuery</h1>
+      <h2>Calculator Using JQuery</h2>
+      <div id="screen">
+        <span>----------------------------------------</span>
+      </div>
+      <div class="border m-5 text-center align-content-center">
+        <div class="row text-center">
+          <div class="col-md-1 m-2">
+            <button id="one">1</button>
+          </div>
+          <div class="col-md-1 m-2">
+            <button id="two">2</button>
+          </div>
+          <div class="col-md-1 m-2">
+            <button id="three">3</button>
+          </div>
+          <div class="col-md-1 m-2">
+            <button id="add">+</button>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-1 m-2">
+            <button id="four">4</button>
+          </div>
+          <div class="col-md-1 m-2">
+            <button id="five">5</button>
+          </div>
+          <div class="col-md-1 m-2">
+            <button id="six">6</button>
+          </div>
+          <div class="col-md-1 m-2">
+            <button id="sub">-</button>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-1 m-2">
+            <button id="seven">7</button>
+          </div>
+          <div class="col-md-1 m-2">
+            <button id="eight">8</button>
+          </div>
+          <div class="col-md-1 m-2">
+            <button id="nine">9</button>
+          </div>
+          <div class="col-md-1 m-2">
+            <button id="mul">*</button>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-1 m-2">
+            <button id="unknown">#</button>
+          </div>
+          <div class="col-md-1 m-2">
+            <button id="zero">0</button>
+          </div>
+          <div class="col-md-1 m-2">
+            <button id="div">/</button>
+          </div>
+          <div class="col-md-1 m-2">
+            <button id="eq">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $("#one").click(function () {
+        $("#screen").text("1");
+        $("#screen").toggle();
+      });
+      $("#two").click(function () {
+        $("#screen").text("2");
+        $("#screen").toggle();
+      });
+      $("#three").click(function () {
+        $("#screen").text("3");
+        $("#screen").toggle();
+      });
+      $("#four").click(function () {
+        $("#screen").text("4");
+        $("#screen").toggle();
+      });
+      $("#five").click(function () {
+        $("#screen").text("5");
+        $("#screen").toggle();
+      });
+      $("#six").click(function () {
+        $("#screen").text("6");
+        $("#screen").toggle();
+      });
+      $("#seven").click(function () {
+        $("#screen").text("7");
+        $("#screen").toggle();
+      });
+      $("#eight").click(function () {
+        $("#screen").text("8");
+        $("#screen").toggle();
+      });
+      $("#nine").click(function () {
+        $("#screen").text("9");
+        $("#screen").toggle();
+      });
+      $("#zero").click(function () {
+        $("#screen").text("0");
+        $("#screen").toggle();
+      });
+      $("#add").click(function () {
+        $("#screen").text("+");
+        $("#screen").toggle();
+        eq.text(num1 + num2);
+      });
+      $("#sub").click(function () {
+        $("#screen").text("-");
+        $("#screen").toggle();
+      });
+      $("#mul").click(function () {
+        $("#screen").text("*");
+        $("#screen").toggle();
+      });
+      $("#div").click(function () {
+        $("#screen").text("/");
+        $("#screen").toggle();
+      });
+      $("#unknown").click(function () {
+        $("#screen").text("");
+        $("#screen").toggle();
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

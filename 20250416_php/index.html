@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>My name is <span id="name">____________</span></h1>
+    <button id="red">RED</button>
+    <button id="green">GREEN</button>
+    <button id="blue">BLUE</button>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $("#name").text(" Masooma ");
+      $("#green").click(function () {
+        $("#name").css("color", "green");
+      });
+      $("#red").click(function () {
+        $("#name").css("color", "red");
+      });
+      $("#blue").click(function () {
+        $("#name").css("color", "blue");
+      });
+    </script>
+  </body>
+</html>
+
+<!-- it is possible not to give php end tag if there is only php code -->
